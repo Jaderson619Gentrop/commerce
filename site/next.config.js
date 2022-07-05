@@ -34,7 +34,7 @@ module.exports = withCommerceConfig({
           destination: `${process.env.NEXT_PUBLIC_VENDURE_SHOP_API_URL}/:path*`,
         },
     ].filter(Boolean)
-  },
+  }
 })
 
 // Don't delete this console log, useful to see the commerce config in Vercel deployments
